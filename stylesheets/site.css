@@ -140,11 +140,17 @@ html, body {
   position: relative;
   z-index: 3; }
 
+#banner > .inner > .aprils-fools-logo {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 #banner > .inner > .aprils-fools {
   color: #ffffff !important;
-  font-family: 'Courgette', cursive;
-  font-size: 150px !important;
-  font-weight: bold;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 120px !important;
   height: 130px;
   margin-bottom: 0;
   text-align: center;
@@ -152,13 +158,13 @@ html, body {
 
 #banner > .inner > .aprils-fools2 {
   color: #ffffff !important;
-  font-family: 'Courgette', cursive;
-  font-size: 150px !important;
-  font-weight: bold;
-  text-indent: 40px;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 120px !important;
+  text-indent: 169px;
   margin: 0;
   text-align: center;
-  text-shadow: 8px 8px #000000; }
+  text-shadow: 8px 8px #000000;
+  top: -51px; }
 
 #banner h1 {
   font-size: 3rem;
@@ -203,18 +209,19 @@ html, body {
 @media screen and (max-width: 736px) {
   #banner {
     height: auto !important;
-    min-height: 0;
-    padding: 4rem 2rem 4rem 2rem; }
+    min-height: 0; }
   #banner .inner {
     width: 100%; }
+  #banner .inner .aprils-fools-logo {
+    max-width: 100%; }
   #banner .inner .aprils-fools {
     font-size: 100px !important;
-    left: -40px;
+    left: -60px;
     width: 100%; }
   #banner .inner .aprils-fools2 {
     font-size: 100px !important;
-    left: -40px;
-    top: -43px;
+    left: -120px;
+    top: -62px;
     width: 100%; }
   #banner .inner .about-us .blurb {
     left: -25px; }
@@ -227,9 +234,43 @@ html, body {
   #banner p {
     font-size: 1.25rem; } }
 
+@media screen and (max-width: 612px) {
+  #banner .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -75px;
+    top: -62px;
+    width: 100%; } }
+
 @media screen and (max-width: 480px) {
   #banner p {
     font-size: 1rem; } }
+
+@media screen and (max-width: 414px) {
+  #banner p {
+    font-size: 1rem; }
+  #banner .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -95px;
+    top: -62px;
+    width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  #banner p {
+    font-size: 1rem; }
+  #banner .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -110px;
+    top: -62px;
+    width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  #banner p {
+    font-size: 1rem; }
+  #banner .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -120px;
+    top: -62px;
+    width: 100%; } }
 
 body.is-preload #banner .inner {
   -moz-transform: scale(0.99);
@@ -292,3 +333,203 @@ body.is-preload #banner:before {
   opacity: 0.5;
   padding: 2rem 0;
   text-align: center; }
+
+/* about-us */
+#about-us {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  background-color: #111111;
+  color: rgba(255, 255, 255, 0.5);
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-image: url("../images/hayden.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 35rem !important;
+  min-height: 35rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+#about-us > .inner > .aprils-fools {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 1;
+  position: relative;
+  z-index: 3; }
+
+#about-us > .inner > .aprils-fools2 {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 1;
+  position: relative;
+  z-index: 3; }
+
+#about-us > .inner > .aprils-fools-logo {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#about-us > .inner > .aprils-fools {
+  color: #ffffff !important;
+  font-family: 'Royalacid', 'Sansita Swashed', cursive;
+  font-size: 120px !important;
+  height: 130px;
+  margin-bottom: 0;
+  text-align: center;
+  text-shadow: 8px 8px #000000; }
+
+#about-us > .inner > .aprils-fools2 {
+  color: #ffffff !important;
+  font-family: 'Royalacid', 'Sansita Swashed', cursive;
+  font-size: 120px !important;
+  text-indent: 169px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 8px 8px #000000;
+  top: -51px; }
+
+#about-us h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
+#about-us p {
+  font-size: 1.5rem; }
+
+#about-us:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  background: #111111;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+#about-us:after {
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  content: ' ';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  webkit-linear-gradientidth: 100%;
+  width: 100%;
+  z-index: 1; }
+
+@media screen and (max-width: 736px) {
+  #about-us {
+    height: auto !important;
+    min-height: 0;
+    padding: 4rem 2rem 4rem 2rem; }
+  #about-us .inner {
+    width: 100%; }
+  #about-us .inner .aprils-fools-logo {
+    max-width: 100%; }
+  #about-us .inner .aprils-fools {
+    font-size: 100px !important;
+    left: -60px;
+    width: 100%; }
+  #about-us .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -120px;
+    top: -62px;
+    width: 100%; }
+  #about-us .inner .about-us .blurb {
+    left: -25px; }
+  #about-us h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0;
+    position: relative;
+    left: -25px; }
+  #about-us p {
+    font-size: 1.25rem; } }
+
+@media screen and (max-width: 612px) {
+  #about-us .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -75px;
+    top: -62px;
+    width: 100%; } }
+
+@media screen and (max-width: 480px) {
+  #about-us p {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 414px) {
+  #about-us p {
+    font-size: 1rem; }
+  #about-us .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -95px;
+    top: -62px;
+    width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  #about-us p {
+    font-size: 1rem; }
+  #about-us .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -110px;
+    top: -62px;
+    width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  #about-us p {
+    font-size: 1rem; }
+  #about-us .inner .aprils-fools2 {
+    font-size: 100px !important;
+    left: -120px;
+    top: -62px;
+    width: 100%; } }
+
+body.is-preload #about-us .inner {
+  -moz-transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  transform: scale(0.99);
+  opacity: 0; }
+
+body.is-preload #about-us:before {
+  opacity: 1; }
