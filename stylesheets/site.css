@@ -39,6 +39,9 @@ html, body {
   text-align: center;
   text-shadow: 4px 4px #000000; }
 
+.fb-share {
+  position: relative; }
+
 .blurb {
   position: relative;
   text-shadow: 2px 3px #000000; }
@@ -378,6 +381,8 @@ body.is-preload #banner:before {
     max-width: 100%; }
   #about-us .inner .about-us .blurb {
     left: -25px; }
+  #about-us .inner .fb-share .blurb {
+    left: -25px; }
   #about-us h1 {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
@@ -389,19 +394,27 @@ body.is-preload #banner:before {
 
 @media screen and (max-width: 480px) {
   #about-us p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  #about-us .inner .fb-share {
+    left: -25px; } }
 
 @media screen and (max-width: 414px) {
   #about-us p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  #about-us .inner .fb-share {
+    left: -25px; } }
 
 @media screen and (max-width: 375px) {
   #about-us p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  #about-us .inner .fb-share {
+    left: -25px; } }
 
 @media screen and (max-width: 360px) {
   #about-us p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  #about-us .inner .fb-share {
+    left: -25px; } }
 
 body.is-preload #about-us .inner {
   -moz-transform: scale(0.99);
