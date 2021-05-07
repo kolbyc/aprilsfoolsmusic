@@ -10,16 +10,21 @@ html, body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 50px !important;
   margin: 0;
-  padding-top: 50px;
-  text-align: center; }
+  padding-top: 150px;
+  text-align: center;
+  color: #ff0303;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; }
 
 .song-name {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  color: #ff0303;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; }
 
 .spotify-player1 {
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 120px;
   margin-top: 15px;
   text-align: center; }
 
@@ -230,7 +235,7 @@ body.is-preload #banner:before {
     max-width: calc(100% - 3rem); } }
 
 .wrapper {
-  background-image: url("../images/SOAN_LFTP.png");
+  background-image: url("../images/RIAFOM_edited.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,37 +251,32 @@ body.is-preload #banner:before {
 
 @media screen and (max-width: 800px) {
   .wrapper {
-    padding: 4rem 0 2rem 0;
-    background-position: 25px, 0px; }
+    padding: 4rem 0 2rem 0; }
   .responsive-iframe {
     width: 700px;
     height: 80px; } }
 
 @media screen and (max-width: 736px) {
   .wrapper {
-    padding: 3rem 0 1rem 0;
-    background-position: -50px, 0px; }
+    padding: 3rem 0 1rem 0; }
   .responsive-iframe {
     width: 400px;
     height: 80px; } }
 
 @media screen and (max-width: 575px) {
   .wrapper {
-    padding: 2rem 0 0.1rem 0;
-    background-position: -70px, 0px; } }
+    padding: 2rem 0 0.1rem 0; } }
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    padding: 2rem 0 0.1rem 0;
-    background-position: -260px, 0px; }
+    padding: 2rem 0 0.1rem 0; }
   .responsive-iframe {
     width: 300px;
     height: 80px; } }
 
 @media screen and (max-width: 375px) {
   .wrapper {
-    padding: 2rem 0 0.1rem 0;
-    background-position: -300px, 0px; }
+    padding: 2rem 0 0.1rem 0; }
   .responsive-iframe {
     width: 300px;
     height: 80px; } }
