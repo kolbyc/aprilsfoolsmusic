@@ -166,6 +166,7 @@ html, body {
   z-index: 1; }
 
 #banner:after {
+  background: linear-gradient(135deg, #3f0075 0%, #111111 74%);
   content: ' ';
   display: block;
   height: 100%;
@@ -364,6 +365,7 @@ body.is-preload #banner:before {
   z-index: 1; }
 
 #about-us:after {
+  background: linear-gradient(135deg, #3f0075 0%, #111111 74%);
   content: ' ';
   display: block;
   height: 100%;
