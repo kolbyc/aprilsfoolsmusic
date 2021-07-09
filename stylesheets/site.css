@@ -114,25 +114,29 @@ html, body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../images/hayden.png");
+  background-image: url("../images/profile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 50rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background-position-y: 32%; }
 
 #banner > .inner > .aprils-fools-logo {
   max-width: 50%;
   height: auto;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  width: 35rem; }
 
 #banner h1 {
   font-size: 3rem;
@@ -176,12 +180,14 @@ html, body {
 
 @media screen and (max-width: 736px) {
   #banner {
-    height: auto !important;
-    min-height: 0; }
-  #banner .inner {
-    width: 100%; }
+    height: auto !important; }
   #banner .inner .aprils-fools-logo {
-    max-width: 100%; }
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15rem;
+    height: 15rem; }
   #banner .inner .about-us .blurb {
     left: -25px; }
   #banner h1 {
@@ -310,18 +316,19 @@ body.is-preload #banner:before {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../images/hayden.png");
+  background-image: url("../images/on_stage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 50rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background-position-y: 43%; }
 
 #about-us > .inner > .aprils-fools-logo {
   max-width: 50%;
@@ -358,7 +365,6 @@ body.is-preload #banner:before {
   z-index: 1; }
 
 #about-us:after {
-  background: linear-gradient(135deg, #3f0075 0%, #111111 74%);
   content: ' ';
   display: block;
   height: 100%;
